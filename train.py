@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 
 # load a pretrained model (recommended for training)
-model = YOLO('yolov8n-pose.pt')
+model = YOLO('best.pt')
 
 
 # Train the model
