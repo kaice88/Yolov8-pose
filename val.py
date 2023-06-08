@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 # Load a model
 
-model = YOLO('C:/Users/Lenovo/Desktop/Yolov8/runs/pose/train3/weights/best.pt')
+model = YOLO('D:/YOLO/best.pt')
 
 # Validate the model
 metrics = model.val()  # no arguments needed, dataset and settings remembered

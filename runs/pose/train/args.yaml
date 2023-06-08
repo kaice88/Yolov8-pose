@@ -1,8 +1,8 @@
 task: pose
 mode: train
-model: best.pt
+model: D:/YOLO/best.pt
 data: custom_datasets.yaml
-epochs: 20
+epochs: 50
 patience: 50
 batch: 16
 imgsz: 640
@@ -93,4 +93,4 @@ copy_paste: 0.0
 cfg: null
 v5loader: false
 tracker: botsort.yaml
-save_dir: runs\pose\train
+save_dir: runs\pose\train11

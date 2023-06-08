@@ -1,7 +1,5 @@
-custom_datasets3/
+datasets/
 weights/
-labels_copy/
-train13/
 yolov8n-pose.pt
 yolov8x-pose.pt
 tmp10e8dbbj
